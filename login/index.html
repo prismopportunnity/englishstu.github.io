@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登录 & 注册 </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="ticket" />
+                <h4>小灿购票</h4>
+              </div>
+
+              <div class="heading">
+                <h2>登录</h2>
+                <h6>没有账户？</h6>
+                <a href="#" class="toggle">去注册</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>用户名</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>密码</label>
+                </div>
+
+                <input type="submit" value="Sign In" class="sign-btn" />
+
+                <p class="text">
+                  忘记密码或登录信息了吗?
+                  <a href="#">帮助</a> 
+                </p>
+              </div>
+            </form>
+
+            <form action="index.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="easyclass" />
+                <h4>小灿购票</h4>
+              </div>
+
+              <div class="heading">
+                <h2>注册</h2>
+                <h6>已经有账户了吗?</h6>
+                <a href="#" class="toggle">去登录</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>用户名</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>邮箱</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>密码</label>
+                </div>
+
+                <input type="submit" value="Sign Up" class="sign-btn" />
+
+                <p class="text">
+                  通过注册，我同意
+                  <a href="#">服务条款</a> and
+                  <a href="#">隐私政策</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./img/image1.png" class="image img-1 show" alt="" />
+              <img src="./img/image2.png" class="image img-2" alt="" />
+              <img src="./img/image3.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>购票全新体验</h2>
+                  <h2>快捷查询车票情况</h2>
+                  <h2>给您更好保障与服务</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
